@@ -1,18 +1,30 @@
-@charset "UTF-8";
-/* CSS Document */
-
 .social {
-  margin-top: 20px;
-  width: 300px;
+  margin-top: 0px;
 }
 
 .footer-caption {
   width: 300px;
-  padding-top: 55px;
+  padding-top: 50px;
   color: white;
   text-align: center;
   margin: 0 auto;
-  ;
+}
+
+.social li {
+  display: inline-block;
+}
+
+ul.social img {
+  margin-top: 25px;
+  width: 50px;
+}
+
+ul.social img:hover {
+  margin-top: 25px;
+  width: 50px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* IE8 and ealier */
 }
 
 .submitButton {
@@ -24,6 +36,10 @@
   background-color: rgba(91, 91, 91, .26);
   width: 400px;
   color: #FFF;
+}
+
+.submitButton:hover {
+  background: #8080808a;
 }
 
 @media screen and (max-width: 1024px) {
@@ -90,5 +106,19 @@
   }
   #lorem-ipsum {
     margin-top: 100px;
+  }
+  .social li {
+    display: inline-block;
+  }
+  ul.social img {
+    margin-top: 25px;
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .submitButton {
+    text-align: center;
+    width: 100%;
   }
 }
