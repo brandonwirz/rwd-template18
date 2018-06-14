@@ -1,1 +1,1 @@
-Image gallery using Flexbox.
+Responsive web design template using jQuery
