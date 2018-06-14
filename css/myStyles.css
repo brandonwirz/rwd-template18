@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0 none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: outside none none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.nav-bar {
+  background: #222;
+  width: 100%;
+}
+
+.navContainer {
+  overflow: hidden;
+}
+
+.navLogo {
+  color: #f9f9f9;
+  display: block;
+  float: left;
+  padding: 30px 10px;
+}
+
+.navList {
+  float: right;
+  margin-right: 10px;
+}
+
+.navList li {
+  float: left;
+}
+
+.navList li a {
+  color: #ffffff;
+  display: block;
+  padding: 30px 10px;
+}
+
+.navMenu {
+  display: none;
+}
+
+body, a {
+  font-family: "Verdana", "Geneva", sans-serif;
+  text-decoration: none;
+}
+
+.container p {
+  columns: 2 auto;
+  line-height: 1.5em;
+}
+
+.container, .navContainer, .imageGallery {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.container {
+  padding: 40px 0 0 10px;
+}
+
+.container h1, .container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: block;
+  height: 200px;
+}
+
+.imageGallery {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.imageGalleryRect {
+  float: left;
+  overflow: hidden;
+  padding: 5px 5px 5px 5px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.imageGalleryRect img {
+  width: 100%;
+}
+
+h2 {
+  color: #333;
+}
+
+#h2-gallery {}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.form {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  padding: 0px;
+}
+
+.formMods {
+  margin: 0 auto;
+  float: left;
+  padding: 3px;
+  width: 25%;
+  color: #333;
+}
+
+.formMods label, .formMessage label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formMods input {
+  font-size: 1rem;
+  line-height: 1.2em;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.formMessage {
+  width: 100%;
+  margin-top: 70px;
+  text-align: left;
+  padding: 3px;
+}
+
+.formMessage textarea.textarea-message {
+  height: 150px;
+  padding: 0px 0 10px 0;
+  resize: none;
+  width: 100%;
+}
+
+.submitButton {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 400px;
+  background: #5b5b5b;
+  color: #FFF;
+}
+
+#lorem-ipsum {
+  padding-top: 100px;
+}
+
+label {
+  color: #333;
+}
+
+.footer {
+  position: relative;
+  top: 100px;
+  background-color: #333;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}

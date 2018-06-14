@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.social {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.footer-caption {
+  width: 300px;
+  padding-top: 55px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  ;
+}
+
+.submitButton {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background-color: rgba(91, 91, 91, .26);
+  width: 400px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 40px 10px 0 10px;
+  }
+  .imageGalleryRect {
+    width: 25%;
+  }
+  .formMods {
+    width: 50%;
+    padding: 5px;
+  }
+  .formMessage textarea.textarea-message {
+    height: 150px;
+    margin-top: 0px resize: none;
+    width: 100%;
+  }
+  .submitButton {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: rgba(91, 91, 91, .26);
+    width: 400px;
+    color: #FFF;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container p {
+    columns: 1 auto;
+  }
+  .navMenu {
+    color: #f9f9f9;
+    display: block;
+    float: right;
+    padding: 30px 20px;
+  }
+  .navList {
+    display: none;
+  }
+  .nav-open {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+  .navList li {
+    width: 100%;
+  }
+  .navList li a {
+    color: #f9f9f9;
+    display: block;
+    padding: 20px 10px;
+    width: 100%;
+  }
+  .imageGalleryRect {
+    width: 50%;
+  }
+  .formMods {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  #lorem-ipsum {
+    margin-top: 100px;
+  }
+}
